@@ -189,7 +189,7 @@ const WIDGET_OPTIONS: Array<{ id: WidgetId; label: string; layout: WidgetLayout 
   { id: 'calendar', label: 'Calendar', layout: 'full' },
   { id: 'battery', label: 'Battery', layout: 'full' },
 ];
-const DEFAULT_WIDGETS: WidgetId[] = WIDGET_OPTIONS.map(({ id }) => id);
+const DEFAULT_WIDGETS: WidgetId[] = [];
 const DEFAULT_WIDGET_POSITIONS: Record<WidgetId, { x: number; y: number }> = {
   clock: { x: 24, y: 96 },
   weather: { x: 364, y: 96 },
